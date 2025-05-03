@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulário de Contato</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+
+  <!-- Fonte Space Grotesk -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet"/>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Space Grotesk', sans-serif;
+      background-color: #F3F2EB;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      max-width: 1100px;
+      width: 100%;
+      padding: 40px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .info-bloco {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+
+    .box {
+      background-color: #007A5E;
+      color: white;
+      padding: 25px 30px;
+      border-radius: 0 0 25px 25px;
+      width: 300px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .box h2 {
+      margin-top: 0;
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .box p {
+      margin: 10px 0 0;
+      font-size: 14px;
+    }
+
+    .icon-box {
+      background-color: #007A5E;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 25px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .icon-box img {
+      width: 24px;
+      height: 24px;
+      object-fit: contain;
+      background-color: #F3F2EB;
+      border-radius: 50%;
+      padding: 4px;
+    }
+
+    .form-section {
+      max-width: 500px;
+      width: 100%;
+    }
+
+    .form-header {
+      background-color: #007A5E;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 30px;
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 30px;
+      display: inline-block;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 14px;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    button {
+      background-color: #007A5E;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+
+    footer {
+      margin: 40px auto;
+    }
+
+    .footer-msg {
+      background-color: #007A5E;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 25px;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- Bloco de localização -->
+    <div class="info-bloco">
+      <div class="box">
+        <h2>Localização</h2>
+        <p>(endereço do consultório)</p>
+      </div>
+
+      <!-- Email separado -->
+      <div class="icon-box">
+        <img src="assets/icon-email.png" alt="Ícone de Email">
+        <div>gedalvasilveira@yahoo.com.br</div>
+      </div>
+
+      <!-- WhatsApp separado -->
+      <div class="icon-box">
+        <img src="assets/icon-whatsapp.png" alt="Ícone do WhatsApp">
+        <div>(11) 99705-0960</div>
+      </div>
+    </div>
+
+    <!-- Bloco de formulário -->
+    <div class="form-section">
+      <div class="form-header">Formulário de contato:</div>
+      <form>
+        <input type="text" placeholder="Enter your Name" required />
+        <input type="email" placeholder="Enter a valid email address" required />
+        <textarea placeholder="Enter your message" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+  </div>
+
+  <footer>
+    <p class="footer-msg">Atendimento somente online<br>e com horário marcado.</p>
+  </footer>
+
+</body>
+</html>

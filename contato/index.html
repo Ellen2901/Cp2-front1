@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Contato</title>
+  <style>
+    body {
+      background-color: #F3F2EB;
+    }
+
+/* Área que junta tudo dentro do site e centraliza */
+    .container {
+      width: 90%;
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #F3F2EB;
+      padding: 20px;
+    }
+
+  /* Caixa verde com texto dentro dela */
+    .box {
+      background-color: #007A5E;
+
+      color: white;
+      padding: 15px;
+
+      border-radius: 20px;
+      margin-bottom: 10px;
+      
+    }
+  /* Caixinha com icon + texto (seria o email e whatsapp) */
+    .icon-box {
+      background-color: #007A5E;
+
+      color: white;
+
+      padding: 10px;
+
+      border-radius: 20px;
+      margin-bottom: 10px;
+
+
+      display: block;
+    }
+ /* Deixa os icons pequenos e com espaço ao lado */
+    .icon-box img {
+      vertical-align: middle;
+
+      width: 20px;
+
+      height: 20px;
+      margin-right: 10px;
+
+    }
+  /* Onde vai ficar o formulário */
+    .formulario {
+
+      background-color: #F3F2EB;
+    }
+
+
+    /* Título do formulário */
+    .form-header {
+      background-color: #007A5E;
+
+      color: white;
+
+      padding: 10px;
+      border-radius: 20px;
+
+      text-align: center;
+
+      margin-bottom: 20px;
+    }
+/* Estilo dos campos do formulario */
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    }
+
+
+    /* botão para enviar*/
+    button {
+      background-color: #007A5E;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+
+
+
+<!-- Parte com os dados de contato -->
+<div class="info">
+  <div class="box">
+  Atendimento somente online e com horário marcado.
+  </div>
+  <div class="icon-box">
+  <img src="assets/img/icon-email.png" alt="Ícone de Email">
+   gedalvasilveira@yahoo.com.br
+  </div>
+  <div class="icon-box">
+  <img src="assets/img/icon-whatsapp.png" alt="Ícone do WhatsApp">
+  (11)99705-0960
+  </div>
+  </div>
+ <!-- Parte do formulário (título que ficará em cima, etc.) -->
+    <div class="formulario">
+      <div class="form-header">Formulário de contato:</div>
+
+      <!-- Formulário com campos para preencher -->
+ <form>
+
+<input type="text" placeholder="Insira seu nome" required>
+
+<input type="email" placeholder="Insira seu email" required>
+
+<textarea placeholder="Digite a sua mensagem" required></textarea>
+
+<button type="submit">Enviar</button>
+</form>
+</div>
+</div>
+</body>
+</html>

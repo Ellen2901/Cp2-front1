@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f2eb;
+  }
+ 
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+ 
+  header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+ 
+  .logo {
+    font-weight: bold;
+    color: #2c8c7d;
+  }
+ 
+  .hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f4f2ee;
+  }
+ 
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+ 
+  .hero h2 {
+    font-size: 24px;
+    color: #555;
+  }
+ 
+  .photo-circle {
+    background-color: #ada4ff;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    margin: 30px auto;
+    overflow: hidden;
+  }
+ 
+  .photo-circle img {
+    width: 100%;
+    height: auto;
+  }
+ 
+  .historia {
+    background-color: #007a5e;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 25px 25px 0 0;
+  }
+ 
+  .historia h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+ 
+  .historia p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }

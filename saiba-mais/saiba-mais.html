@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Saiba Mais</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+
+    /* fontes usadas para o saiba mais*/
+    @font-face {
+      font-family: 'SpaceGrotesk';
+      src: url('assets/fonts/SpaceGrotesk-Regular.ttf') format('woff2'),
+           url('assets/fonts/fonte-trirong.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      font-family:'SpaceGrotesk'sans-serif;
+      background-color: #F3F2EB; 
+      color: black
+
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    /* Cabeçalho */
+    header {
+      text-align: center;
+      margin-bottom: 80px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      font-weight: normal;
+      margin-bottom: 10px;
+      font-family: 'Trirong', serif; 
+    }
+
+    header .sub {
+      font-size: 13px;
+      letter-spacing: 1px;
+      border-bottom: 1px solid #007A5E; 
+      display: inline-block;
+      padding-bottom: 4px;
+      color: #000;
+      font-family: 'Space Grotesk', sans-serif; 
+    }
+
+    /* espaçamento nas seções */
+    section {
+      margin-bottom: 80px;
+    }
+
+    .section-title {
+      font-size: 26px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+      color: #000000;
+      font-family: 'Trirong', serif;
+    }
+
+    /* Layout em  duas colunas */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+
+    /* box com texto e sombra */
+    .box-light, .box-dark {
+      background-color: #FFFFFF; 
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    /* caixa com fundo verde destacada para a ultima coluna */
+    .box-dark {
+      background-color: #007A5E;
+      color: white;
+    }
+
+    ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 6px;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #007A5E;
+      text-transform: uppercase;
+      font-size: 13px;
+      margin-bottom: 10px;
+      font-family: 'Space Grotesk', sans-serif;
+    }
+/* logo do site e centralização dele*/
+    .brain-img {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .brain-img img {
+      max-width: 160px;
+      opacity: 0.2;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- topo da página com título e os textos -->
+    <header>
+      <h1>Saiba Mais</h1>
+      <div class="sub">ABORDAGEM E BENEFÍCIOS DA TERAPIA</div>
+    </header>
+
+    <!-- Abordagem -->
+    <section>
+      <div class="section-title">Saiba Mais<br>Abordagem</div>
+      <div class="grid-2">
+        <div class="box-light">
+          <p>
+            A psicoterapia conduzida pela Dra. Gedalva de Souza é baseada na Terapia Cognitivo-Comportamental (TCC), uma abordagem científica, prática e focada em resultados. Seu principal objetivo é ajudar o paciente a compreender como seus pensamentos influenciam diretamente suas emoções e comportamentos — e, a partir disso, promover mudanças reais e duradouras na forma de lidar com os desafios do dia a dia.
+Na TCC, trabalhamos com a ideia de que muitas das nossas dificuldades emocionais têm origem em padrões de pensamento automáticos, muitas vezes distorcidos ou rígidos. Através da terapia, esses padrões são identificados, questionados e reestruturados, permitindo que o paciente desenvolva uma forma mais saudável e funcional de pensar, sentir e agir.
+          </p>
+          <br>
+          </p>
+        </div>
+
+        <div>
+          <div class="highlight">Como Funciona?</div>
+          <p>
+            A TCC é uma terapia estruturada, com objetivos definidos e técnicas adaptadas à realidade e necessidade de cada pessoa. Durante as sessões, o paciente é convidado a refletir, observar seus comportamentos, identificar pensamentos disfuncionais e aprender novas formas de responder às situações da vida.
+          </p>
+          <br>
+          <p>
+            Além da conversa terapêutica, podem ser utilizadas atividades entre as sessões (como registros de pensamentos ou exercícios práticos), que ajudam a ampliar a consciência e acelerar o progresso do tratamento.
+          </p>
+          <br>
+          <p>
+            Essa abordagem é recomendada para uma ampla gama de questões, incluindo:
+          </p>
+          <ul>
+            <li>Ansiedade e estresse</li>
+            <li>Depressão</li>
+            <li>Baixa autoestima</li>
+            <li>Fobias</li>
+            <li>Transtornos alimentares</li>
+            <li>Dificuldades nos relacionamentos</li>
+            <li>Problemas de concentração e organização</li>
+            <li>Entre outros</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- por que escolher a TCC? -->
+    <section>
+      <div class="section-title">Por que escolher a TCC?</div>
+      <div class="box-light">
+        <p>
+          Ela foca no presente, sem esquecer do nosso passado, e ensina a gente a se conhecer melhor para mudar de verdade.É uma abordagem focada no presente, mas sem desconsiderar a história de vida.
+          Promove autonomia emocional, ensinando o paciente a se tornar seu próprio agente de mudança.
+          Os resultados são visíveis e aplicáveis no dia a dia.
+          
+        </p>
+        <br>
+        <p>
+          Favorece o autoconhecimento e o desenvolvimento de habilidades emocionais.
+          A TCC valoriza a parceria entre psicólogo e paciente. Juntos, constroem um caminho de transformação com acolhimento, técnica e compromisso com o bem-estar.
+                  </p>
+
+
+      </div>
+      <div class="brain-img">
+        <img src="assets/img/logo.png" alt="logo" />
+      </div>
+    </section>
+
+    <!--os benefícios de fazer terapia -->
+    <section>
+      <div class="section-title">Os benefícios de fazer terapia:</div>
+
+      <div class="grid-2" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+        <div class="box-light">
+          <p>
+            Fazer terapia é um ato de cuidado e coragem. Ao longo do processo terapêutico, não apenas aprendemos a lidar melhor com emoções e pensamentos difíceis, mas também desenvolvemos uma relação mais saudável conosco e com o mundo ao nosso redor.
+            A psicoterapia vai além do alívio imediato de sintomas. Ela proporciona um espaço seguro para refletir, ressignificar experiências e encontrar novas formas de viver com mais consciência e equilíbrio. Cada sessão é uma oportunidade de se ouvir, se entender e se fortalecer.
+                      </p>
+        </div>
+
+        <div class="box-light">
+          <p>Entre os principais benefícios da terapia, podemos destacar:
+            Autoconhecimento: Reconheça quem você é, como pensa, sente e reage, identificando o que deseja mudar ou fortalecer.
+            Gestão emocional: Aprenda a lidar melhor com sentimentos intensos (ansiedade, raiva, etc) para melhorar a comunicação e construir relações equilibradas.
+            Redução de sintomas: Diminua estresse, crises de ansiedade, tristeza persistente.
+            Fortalecimento da autoestima: Valorize suas qualidades, recursos e conquistas
+            Claridade para decisões: Organize seus pensamentos e avalie situações com objetividade e calma.</p>
+        </div>
+
+        <div class="box-dark">
+          <p>
+            Buscar ajuda psicológica não é sinal de fraqueza — é sinal de maturidade. É entender que você merece cuidado, merece escuta, e que não precisa enfrentar tudo sozinho(a).
+            A terapia é um caminho de transformação, e cada passo dado é uma conquista na direção de uma vida mais saudável, equilibrada e verdadeira.
+           </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

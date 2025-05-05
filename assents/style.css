@@ -23,7 +23,144 @@ body {
     font-weight: bold;
     color: #2c8c7d;
   }
- 
+
+  .img_logo {
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    top: 0;
+    left: 11px;
+    object-fit: cover;
+  }
+
+  .box {
+    width: 1384px;
+    height: 88px;
+  }
+
+  /* Uma caixa fixa que vai conter os itens do menu */
+  .box .group { 
+    position: fixed;
+    width: 1396px;
+    height: 88px;
+    top: 0;
+    left: 0;
+  }
+
+  .box .navbar {
+    position: relative;
+    width: 1384px;
+    height: 88px;
+  }
+  /* retangulo arredondado para demarcar um fundo branco no menu de navegação */
+  .box .rectangle {
+    position: absolute;
+    width: 1384px;
+    height: 72px;
+    top: 8px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 100px;
+  }
+
+  .box .nome_logo {
+    position: absolute;
+    width: 231px;
+    top: 32px;
+    left: 103px;
+    font-family: "Trirong-Bold", Helvetica;
+    font-weight: 700;
+    color: #325746;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .box .home {
+    left: 608px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    position: absolute;
+    width: 231px;
+    top: 32px;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .sobre {
+    left: 698px;
+    font-family: "Trirong-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    position: absolute;
+    width: 231px;
+    top: 32px;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  /* link diferente para demarcar que o usuário está na página serviços */
+  .box .servicos {
+    left: 783px;
+    font-family: "Trirong-Bold", Helvetica;
+    font-weight: 700;
+    color: #325746;
+    position: absolute;
+    width: 231px;
+    top: 32px;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .saiba_mais {
+    left: 898px;
+    font-family: "Trirong-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    position: absolute;
+    width: 231px;
+    top: 32px;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .FAQ {
+    position: absolute;
+    width: 231px;
+    top: 32px;
+    left: 1038px;
+    font-family: "Trirong-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .box .contato {
+    position: absolute;
+    width: 231px;
+    height: 40px;
+    top: 22px;
+    left: 1133px;
+    font-family: "Trirong-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #24503C;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+
   .hero {
     text-align: center;
     padding: 40px 20px;
@@ -72,3 +209,73 @@ body {
     max-width: 800px;
     margin: 0 auto;
   }
+
+.secao {
+  position: relative;
+  width: 1311px;
+  height: 392px;
+  top: 0;
+  left: 0;
+}
+
+.div .titulo {
+  position: absolute;
+  width: 592px;
+  top: 0;
+  left: 0;
+  font-family: "Open Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.div .paragrafo {
+  position: absolute;
+  width: 1311px;
+  top: 73px;
+  left: 0;
+  font-family: "Open Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.secao2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* "gap" representa a quantidade de espaço entre os cards criados nesta seção*/
+  align-items: center;  /* O elemento "center" deixa os cards centralizados*/
+}
+
+.card {
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* não  deixa a imagem ultrapassar a margem do card */
+  max-width: 600px;
+  width: 100%;
+}
+
+.card img {
+  width: 100%; /*para a imagem ocupar 100% do tamanho do card */
+  height: auto;
+  display: block;
+}
+
+.conteudo {
+  padding: 20px; /* espaçamento interno do texto */
+}
+
+.conteudo h3 {
+  color: #007A5E;
+  margin: 0 0 10px 0;
+}
+
+.conteudo p {
+  color: #333;
+  margin: 0;
+}

@@ -20,6 +20,7 @@
 
   /* Caixa verde com texto dentro dela */
     .box {
+      margin-top: 200px;
       background-color: #007A5E;
 
       color: white;
@@ -99,15 +100,47 @@
     button:hover {
       opacity: 0.9;
     }
+
+    .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
 </style>
 </head>
 <body>
+  <header class="header">
+
+    <img src="assents/imagens/logo.PNG"
+        style="width: 88px; height: 88px; left: 39px; top: 38px; position: absolute;"> <!-- Logo da empresa -->
+    <h1
+        style="width: 231px; height: 42px; left: 131px; top: 61px; position: absolute; color: #325746; font-size: 25px; font-family: Trirong; font-weight: 700; word-wrap: break-word">
+        Ser em equilibrio <!-- Nome da empresa -->
+        <div
+            style="width: 1384px; height: 72px; left: 28px; top: 46px; position: absolute; background: white; border-radius: 100px">
+        </div> <!-- Barra de navegação -->
+        <nav>
+            <ul
+                style="list-style-type:  none; color: black; font-size: 18px; display: flex; gap: 20px; margin-top: 50px;position: relative; ">
+                <li><a href="./index.html" target="_blank">Home</a></li>
+                <li><a href="./about.html" target="_blank">Sobre</a></li>
+                <li><a href="./servicos.html">Serviços</a></li>
+                <li><a href="./know.html">Saiba mais</a></li>
+                <li><a href="./questions.html">Perguntas frequentes</a></li>
+                <li><a href="./contact.html">Contato</a></li>
+            </ul>
+        </nav>
+</header>
+
 <div class="container">
 
 
 
 <!-- Parte com os dados de contato -->
-<div class="info">
+<div>
   <div class="box">
   Atendimento somente online e com horário marcado.
   </div>
